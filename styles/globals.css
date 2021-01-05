@@ -21,8 +21,6 @@ a {
   border: 1px solid white;
   border-radius: 50%;
   position: absolute;
-  transition-timing-function: ease-out;
-  animation: cursorAnim .5s infinite alternate;
   pointer-events: none;
 }
 
@@ -36,10 +34,9 @@ a {
   opacity: .5;
   top: -8px;
   left: -8px;
-  animation: cursorAnim2 .5s infinite alternate;
 }
 
-@keyframes cursorAnim3 {
+@keyframes cursorAnim {
   0% {
       transform: scale(1);
   }
@@ -53,5 +50,5 @@ a {
 }
 
 .expand {
-  animation: cursorAnim3 .5s forwards;
+  animation: cursorAnim .5s forwards;
 }
